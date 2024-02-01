@@ -9,7 +9,7 @@ const getItemsFetch = () => {
     fetch(apiURL)                                                   // meghívjuk az API users lábát, lekérve a user adatokat json formátumban
     .then(response => response.json())
     .then(data => {
-        itemsArray = data;                                          // a kapott json-t átadjuk a 9. sorban létrehozott üres tömbnek (későbbiekben ezzel dolgozunk)
+        itemsArray = data;                                          // a kapott json-t átadjuk a 5. sorban létrehozott üres tömbnek (későbbiekben ezzel dolgozunk)
     });
 }
 
