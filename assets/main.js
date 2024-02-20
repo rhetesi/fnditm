@@ -1,6 +1,6 @@
 'use strict';
 
-const clg = document.querySelector('clg');
+let clg = document.querySelector('clg');
 
 import { createCard } from "./createCard.js";
 import { items} from "./db.js";
@@ -26,7 +26,7 @@ itemsArray = items;
 
 console.log(itemsArray);
 
-
+clg.innerHTML = "hello";
 
 const createCardList = (items) => {
     let cardList = '';
@@ -37,7 +37,7 @@ const createCardList = (items) => {
 
     // console.log(cardList);
 
-    cardListGrid.innerHTML = cardList;
+    clg.innerHTML = cardList;
 }
 
-createCardList(itemsArray);
+// createCardList(itemsArray);
