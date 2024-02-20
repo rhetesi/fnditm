@@ -3,7 +3,7 @@
 export const createCard = (item) => {
     const card = ` 
       <div class="col">
-        <div class="card" style="width: 18rem;" id=${item.id}>
+        <div class="card h-100" style="width: 18rem;" id=${item.id}>
           <img src="..." class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">${item.name}</h5>
