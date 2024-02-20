@@ -1,6 +1,7 @@
 'use strict';
 
-const apiURL = 'https://my-json-server.typicode.com/rhetesi/fnditm';
+// const apiURL = 'https://my-json-server.typicode.com/rhetesi/fnditm';
+const apiURL = 'https://github.com/rhetesi/fnditm/blob/[main|master]/db.json';
 
 let itemsArray = [];
 
