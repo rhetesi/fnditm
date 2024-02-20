@@ -1,0 +1,81 @@
+'use strict';
+
+export const items = [
+    {
+        "id": "1",
+        "name": "óra",
+        "founddate": "2024-01-02",
+        "foundplace": "G öltöző",
+        "description": "ezüst színű, analóg férfi karóra"
+    },
+    {
+        "id": "2",
+        "name": "papucs",
+        "founddate": "2024-01-07",
+        "foundplace": "Festetics öltöző",
+        "description": "kék, férfi Adidas papucs, 43-as méret"
+    },
+    {
+        "id": "3",
+        "name": "fürdőruha",
+        "founddate": "2024-01-12",
+        "foundplace": "E öltöző",
+        "description": "fekete, női úszódressz"
+    },
+    {
+        "id": "4",
+        "name": "jogosítvány",
+        "founddate": "2024-01-15",
+        "foundplace": "G előtér",
+        "description": "Minta János névre szóló jogosítvány"
+    },
+    {
+        "id": "5",
+        "name": "törölköző",
+        "founddate": "2024-01-15",
+        "foundplace": "G öltöző",
+        "description": "világoskék törölköző"
+    },
+    {
+        "id": "6",
+        "name": "sapka",
+        "founddate": "2024-01-20",
+        "foundplace": "Festetics öltöző",
+        "description": "fekete, baseball sapka"
+    },
+    {
+        "id": "7",
+        "name": "papucs",
+        "founddate": "2024-01-21",
+        "foundplace": "A épület pihenőtér",
+        "description": "fehér-bézs női strandpapucs"
+    },
+    {
+        "id": "8",
+        "name": "szemüveg",
+        "founddate": "2024-01-24",
+        "foundplace": "G öltöző",
+        "description": "kék, fémkeretes skandináv design-ú férfi szemüveg"
+    },
+    {
+        "id": "9",
+        "name": "bankkártya",
+        "founddate": "2024-01-25",
+        "foundplace": "G előtér",
+        "description": "Miroslav Klose névre szóló Santander bank bankkártya"
+    },
+    {
+        "id": "10",
+        "name": "fényképezőgép",
+        "founddate": "2024-01-29",
+        "foundplace": "F terasz",
+        "description": "Canon Ixus 100 fényképezőgép, ezüst színű"
+    },
+    {
+        "id": "11",
+        "name": "mobiltelefon",
+        "founddate": "2024-02-01",
+        "foundplace": "T3 park",
+        "description": "ezüst színű iPhone"
+    }
+]
