@@ -13,6 +13,8 @@ export const createCard = (item) => {
           </div>
         </div>
       </div>`;
+
+      // console.log(card);
                         
     return card;
 }
