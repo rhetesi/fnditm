@@ -1,4 +1,5 @@
-[
+{
+    "items": [
     {
         "id": "1",
         "name": "óra",
@@ -75,5 +76,5 @@
         "founddate": "2024-02-01",
         "foundplace": "T3 park",
         "description": "ezüst színű iPhone"
+    }]
     }
-]
