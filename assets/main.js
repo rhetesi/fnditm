@@ -24,7 +24,7 @@ getItemsFetch(); */
 itemsArray = items;
 
 
-// console.log(itemsArray);
+console.log(itemsArray);
 
 
 
