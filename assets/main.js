@@ -41,3 +41,13 @@ const createCardList = (items) => {
 }
 
 createCardList(itemsArray);
+
+const createItmesTable = (items) => {
+    let itemsList = '';
+
+    items.forEach(item => {
+        itemsList += createItems(item);
+    });
+
+    clg.innerHTML("Hello");
+}
