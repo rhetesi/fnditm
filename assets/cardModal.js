@@ -1,8 +1,12 @@
 'use strict';
 
+let isBlankModal = true;
+
+let ModalHTML = '';
+
 /* Modal html example
 <!-- Modal -->
-  <div class="modal-div">
+  
 
     <!-- A Modal -->
     <div class="modal fade" id="myModal" data-bs-backdrop="static" data-bs-keyboard="false">
@@ -37,8 +41,7 @@
         </div>
       </div>
     </div>
-
-  </div> */
+ */
 
   /* 
   Modal:

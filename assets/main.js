@@ -2,8 +2,9 @@
 
 let clg = document.querySelector('.clg');
 
-import { createCard } from "./createCard.js";
 import { items} from "./db.js";
+import { createCard } from "./createCard.js";
+// import {} from "./cardModal.js"; - itt kell behúzni, ha kész a cardModal.js függvénye
 
 // const apiURL = 'https://my-json-server.typicode.com/rhetesi/fnditm';
 // const apiURL = 'https://github.com/rhetesi/fnditm/blob/[main|master]/db.json';
