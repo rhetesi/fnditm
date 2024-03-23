@@ -15,3 +15,6 @@ https://github.com/bobbyfromgeminus/javascript-practice-api-fetch-and-filter/tre
 
 S nézd át ezt is
 https://github.com/rhetesi/foundeditem-new-vanillajs-pocs/tree/main
+
+
+Adj hozzá egy helyőrző (placeholder) képet!
