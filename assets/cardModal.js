@@ -4,6 +4,27 @@ let isBlankModal = true;
 
 let ModalHTML = '';
 
+
+/*V ertically centered
+
+<!-- Vertically centered modal -->
+<div class="modal-dialog modal-dialog-centered">
+  ...
+</div>
+
+<!-- Vertically centered scrollable modal -->
+<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+  ...
+</div>
+*/
+
+/* Modal sizes
+<div class="modal-dialog modal-xl">...</div>
+<div class="modal-dialog modal-lg">...</div>
+<div class="modal-dialog modal-sm">...</div>
+*/
+
+
 /* Modal html example
 <!-- Modal -->
   

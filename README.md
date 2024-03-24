@@ -17,4 +17,14 @@ S nézd át ezt is
 https://github.com/rhetesi/foundeditem-new-vanillajs-pocs/tree/main
 
 
-Adj hozzá egy helyőrző (placeholder) képet!
+DONE - Adj hozzá egy helyőrző (placeholder) képet!
+
+Kép átméretezése feltöltés előtt
+https://www.google.com/search?q=how+to+resize+a+picture+when+upload+in+javascript&oq=how+to+resize+a+picture+when+upload+in+javascript&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABiABBiiBDIKCAIQABiABBiiBDIKCAMQABiABBiiBDIKCAQQABiABBiiBNIBCTE2MTE5ajBqN6gCALACAA&client=ubuntu-chr&sourceid=chrome&ie=UTF-8#ip=1
+
+https://stackoverflow.com/questions/23945494/use-html5-to-resize-an-image-before-upload
+
+https://javascript.plainenglish.io/resize-images-on-the-client-using-javascript-before-uploading-them-17a6484e3a00
+
+https://uploadcare.medium.com/resize-and-rotate-images-using-javascript-76a4a3cc296f
+
