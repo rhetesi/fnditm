@@ -28,3 +28,17 @@ https://javascript.plainenglish.io/resize-images-on-the-client-using-javascript-
 
 https://uploadcare.medium.com/resize-and-rotate-images-using-javascript-76a4a3cc296f
 
+
+Kép átalakítása BASE64 stringgé
+https://plainenglish.io/community/a-comprehensive-guide-to-converting-images-to-base64-with-javascript-79108c
+
+https://codepen.io/t-kanjariya/pen/wvYPExO?editors=1111
+
+
+https://www.geeksforgeeks.org/how-to-convert-image-into-base64-string-using-javascript/
+
+
+https://stackoverflow.com/questions/21227078/convert-base64-to-image-in-javascript-jquery
+
+
+
