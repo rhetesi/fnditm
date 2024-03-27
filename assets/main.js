@@ -2,8 +2,12 @@
 
 let clg = document.querySelector('.clg');
 
-import { items} from "./db.js";
-import { createCard } from "./createCard.js";
+import {
+    items
+} from "./db.js";
+import {
+    createCard
+} from "./createCard.js";
 // import {} from "./cardModal.js"; - itt kell behúzni, ha kész a cardModal.js függvénye
 
 // const apiURL = 'https://my-json-server.typicode.com/rhetesi/fnditm';
@@ -36,7 +40,7 @@ const createCardList = (items) => {
         cardList += createCard(item);
     });
 
-    console.log(cardList);
+    // console.log(cardList);
 
     clg.innerHTML = cardList;
 }
