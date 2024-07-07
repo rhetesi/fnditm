@@ -22,7 +22,7 @@ export const createCard = (item) => {
       </div>`; */
   const card = ` 
       <div class="col">
-        <div class="card h-100 mx-2" style="width: 18rem;" id=${item.id}>
+        <div class="card h-100" style="width: 18rem;" id=${item.id}>
           ${cardpicture} class="card-img-top" alt=${item.name}>
           <div class="card-body">
             <h5 class="card-title">${item.name}</h5>
