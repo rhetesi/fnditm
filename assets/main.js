@@ -28,24 +28,39 @@ getItemsFetch(); */
 
 itemsArray = items;
 
-
+const firstOrAddNewCard = `
+    <div class="col">
+        <div class="card h-100 addNewItem align-middle" style="width: 18rem;" id="">
+            <div class="card-body mt-5 pt-5">
+                <h1 class="card-title mt-5 pt-5 text-success">+</h1>
+            </div>
+            <div class="card-footer">
+                <a href="#" class="btn btn-success">Új elem felvétele</a>
+            </div>
+        </div>
+    </div>
+`;
 // console.log(itemsArray);
 
 // clg.innerHTML = "hello";
+let cardList = '';
 
 const createCardList = (items) => {
     let cardList = '';
+    
 
     items.forEach(item => {
         cardList += createCard(item);
     });
 
     // console.log(cardList);
-
-    clg.innerHTML = cardList;
+    const cardGrid = `${firstOrAddNewCard}, ${cardList}`
+    clg.innerHTML = cardGrid;
+    // return cardList;
 }
 
 createCardList(itemsArray);
+
 
 const createItmesTable = (items) => {
     let itemsList = '';
