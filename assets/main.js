@@ -71,3 +71,16 @@ const createItmesTable = (items) => {
 
     clg.innerHTML("Hello");
 }
+
+
+const handleClick = () => {
+    let buttons = document.querySelectorAll('.button');
+    for (let i = 0; i < buttons.length; i++) {
+        buttons[i].addEventListener('click', () => {
+            //console.log(buttons[i].value);
+            console.log(buttons[i].innerHTML);
+        })
+    }
+}
+
+handleClick();
