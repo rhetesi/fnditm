@@ -74,11 +74,11 @@ const createItmesTable = (items) => {
 
 
 const handleClick = () => {
-    let buttons = document.querySelectorAll('.button');
-    for (let i = 0; i < buttons.length; i++) {
-        buttons[i].addEventListener('click', () => {
-            //console.log(buttons[i].value);
-            console.log(buttons[i].innerHTML);
+    let cardButtons = document.querySelectorAll('.card');
+    for (let i = 0; i < cardButtons.length; i++) {
+        cardButtons[i].addEventListener('click', () => {
+            //console.log(cardButtons[i].value);
+            console.log(cardButtons[i].innerHTML);
         })
     }
 }
