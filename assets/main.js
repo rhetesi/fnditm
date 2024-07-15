@@ -90,6 +90,7 @@ const handleClick = () => {
         cardButtons[i].addEventListener('click', () => {
             //console.log(cardButtons[i].value);
             console.log(cardButtons[i].innerHTML);
+            console.log (cardButtons[i].id);
         })
     }
 }
