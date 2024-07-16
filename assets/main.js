@@ -89,8 +89,8 @@ const handleClick = () => {
     for (let i = 0; i < cardButtons.length; i++) {
         cardButtons[i].addEventListener('click', () => {
             //console.log(cardButtons[i].value);
-            console.log(cardButtons[i].innerHTML);
-            console.log (cardButtons[i].id);
+            // console.log(cardButtons[i].innerHTML);
+            console.log (cardButtons[i].id); // Mivel a meglévő HTML-ben ott az ID is, így annak értékét így ki lehet olvasni! :)
         })
     }
 }
